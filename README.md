@@ -6,9 +6,7 @@ An interactive desktop-based **Physics Simulation Lab** combining high-performan
 
 ##  Contributors
 
-**Subhajit Sarkar**
-**Luit Malay Das**
-**Darshan Gupta**
+**Subhajit Sarkar  |  Darshan Gupta  |  Luit Malay Das**
 
 ---
 
