@@ -1,0 +1,33 @@
+# Build outputs
+dist/
+win-unpacked/
+build/
+
+# Electron
+*.exe
+*.dll
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.slnx
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+
+# Executables
+*.exe
+*.pdb
+*.ilk

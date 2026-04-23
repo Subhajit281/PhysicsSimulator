@@ -1,0 +1,60 @@
+{
+"name": "physics-simulator",
+"version": "1.0.0",
+"description": "Physics Simulator Desktop App",
+"author": "Subhajit Sarkar | Darshan Gupta | Luit Malay Das",
+"main": "electron/main.js",
+
+"scripts": {
+  "vite": "vite",
+  "electron": "electron .",
+  "dev": "concurrently -n VITE,ELECTRON \"vite\" \"wait-on tcp:5173 && electron .\"",
+  "build": "vite build",
+  "dist": "npm run build && electron-builder",
+  "start": "electron ."
+},
+
+"build": {
+"appId": "com.physics.simulator",
+"productName": "Physics Simulator",
+
+
+"directories": {
+  "buildResources": "assets"
+},
+
+"files": [
+  "dist/**/*",
+  "electron/**/*",
+  "preload.js"
+],
+
+"extraResources": [
+  {
+    "from": "../build",
+    "to": "build",
+    "filter": ["**/*"]
+  }
+],
+
+"win": {
+  "target": "nsis"
+}
+
+
+},
+
+"dependencies": {
+"react": "^19.2.5",
+"react-dom": "^19.2.5"
+},
+
+"devDependencies": {
+"@vitejs/plugin-react": "^6.0.1",
+"vite": "^8.0.8",
+"electron": "^41.2.0",
+"concurrently": "^9.2.1",
+"electron-builder": "^26.8.1",
+"wait-on": "^9.0.4"
+}
+}
