@@ -4,9 +4,11 @@ An interactive desktop-based **Physics Simulation Lab** combining high-performan
 
 ---
 
-##  Author
+##  Contributors
 
-**Subhajit Sarkar  |  Darshan Gupta  |  Luit Malay Das**
+**Subhajit Sarkar**
+**Luit Malay Das**
+**Darshan Gupta**
 
 ---
 
