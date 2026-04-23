@@ -4,6 +4,12 @@ An interactive desktop-based **Physics Simulation Lab** combining high-performan
 
 ---
 
+##  Author
+
+**Subhajit Sarkar  |  Darshan Gupta  |  Luit Malay Das**
+
+---
+
 ##  Overview
 
 This project provides a collection of physics simulations such as **Ball collisions, Boids (flocking), waves, electric fields, and more**, wrapped inside a clean and interactive UI.
@@ -157,11 +163,7 @@ Physics Simulator Setup 1.0.0.exe
 
 ---
 
-##  Author
 
-**Subhajit Sarkar  |  Darshan Gupta  |  Luit Malay Das**
-
----
 
 ##  Acknowledgements
 
